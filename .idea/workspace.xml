@@ -5,296 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b7eb9b7-53f6-406d-8eaa-1ba8c30d5e70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec01/Lec01KafkaConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec01/Lec02KafkaConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec02/KafkaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec03/KafkaConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec03/KafkaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec04/KafkaConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec04/KafkaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec05/KafkaConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec05/KafkaConsumerGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec05/KafkaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec06/KafkaConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec06/KafkaConsumerGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec07/KafkaConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__cluster_metadata-0/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/01-kafka-setup/compose/data/__cluster_metadata-0/00000000000000000000.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__cluster_metadata-0/00000000000000000000.log" beforeDir="false" afterPath="$PROJECT_DIR$/01-kafka-setup/compose/data/__cluster_metadata-0/00000000000000000000.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__cluster_metadata-0/00000000000000000000.timeindex" beforeDir="false" afterPath="$PROJECT_DIR$/01-kafka-setup/compose/data/__cluster_metadata-0/00000000000000000000.timeindex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__cluster_metadata-0/00000000000000003964.snapshot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__cluster_metadata-0/00000000000000010666.snapshot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__cluster_metadata-0/leader-epoch-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/01-kafka-setup/compose/data/__cluster_metadata-0/leader-epoch-checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__cluster_metadata-0/quorum-state" beforeDir="false" afterPath="$PROJECT_DIR$/01-kafka-setup/compose/data/__cluster_metadata-0/quorum-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-0/00000000000000000000.index" beforeDir="false" afterPath="$PROJECT_DIR$/reactive-kafka/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-0/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-0/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-0/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-0/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-1/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-1/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-1/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-1/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-1/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-10/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-10/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-10/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-10/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-10/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-11/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-11/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-11/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-11/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-11/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-12/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-12/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-12/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-12/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-12/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-13/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-13/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-13/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-13/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-13/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-14/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-14/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-14/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-14/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-14/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-15/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-15/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-15/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-15/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-15/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-16/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-16/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-16/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-16/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-16/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-17/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-17/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-17/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-17/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-17/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-18/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-18/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-18/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-18/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-18/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-19/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-19/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-19/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-19/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-19/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-2/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-2/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-2/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-2/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-2/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-20/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-20/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-20/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-20/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-20/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-21/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-21/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-21/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-21/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-21/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-22/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-22/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-22/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-22/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-22/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-23/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-23/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-23/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-23/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-23/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-24/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-24/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-24/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-24/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-24/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-25/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-25/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-25/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-25/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-25/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-26/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-26/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-26/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-26/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-26/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-27/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-27/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-27/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-27/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-27/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-28/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-28/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-28/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-28/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-28/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-29/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-29/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-29/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-29/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-29/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-3/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-3/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-3/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-3/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-3/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-30/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-30/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-30/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-30/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-30/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-31/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-31/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-31/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-31/00000000000000000003.snapshot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-31/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-31/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-32/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-32/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-32/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-32/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-32/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-33/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-33/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-33/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-33/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-33/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-34/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-34/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-34/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-34/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-34/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-35/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-35/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-35/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-35/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-35/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-36/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-36/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-36/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-36/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-36/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-37/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-37/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-37/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-37/00000000000000000003.snapshot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-37/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-37/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-38/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-38/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-38/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-38/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-38/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-39/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-39/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-39/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-39/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-39/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-4/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-4/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-4/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-4/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-4/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-40/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-40/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-40/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-40/00000000000000000003.snapshot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-40/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-40/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-41/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-41/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-41/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-41/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-41/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-42/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-42/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-42/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-42/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-42/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-43/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-43/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-43/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-43/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-43/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-44/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-44/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-44/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-44/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-44/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-45/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-45/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-45/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-45/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-45/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-46/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-46/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-46/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-46/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-46/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-47/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-47/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-47/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-47/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-47/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-48/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-48/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-48/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-48/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-48/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-49/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-49/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-49/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-49/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-49/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-5/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-5/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-5/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-5/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-5/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-6/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-6/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-6/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-6/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-6/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-7/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-7/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-7/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-7/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-7/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-8/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-8/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-8/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-8/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-8/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-9/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-9/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-9/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-9/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/__consumer_offsets-9/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/cleaner-offset-checkpoint.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/hello-world-0/00000000000000000000.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/hello-world-0/00000000000000000000.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/hello-world-0/00000000000000000000.timeindex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/hello-world-0/00000000000000000007.snapshot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/hello-world-0/leader-epoch-checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/hello-world-0/partition.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/recovery-point-offset-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/01-kafka-setup/compose/data/recovery-point-offset-checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-kafka-setup/compose/data/replication-offset-checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/01-kafka-setup/compose/data/replication-offset-checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-kafka-101/01-topic.sh" beforeDir="false" afterPath="$PROJECT_DIR$/02-kafka-101/01-topic.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactive-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive-kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-kafka-cluster/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-kafka-cluster/props/s1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-kafka-cluster/props/s2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-kafka-cluster/props/s3.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec08/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec08/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,7 +45,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/hp/Documents/projects/kafka1/reactive-kafka/src/main/java/com/example/reactive_kafka/sec06",
+    "last_opened_file_path": "C:/Users/hp/Documents/projects/kafka1/reactive-kafka/src/main/java/com/example/reactive_kafka/sec08",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -339,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Documents\projects\kafka1\reactive-kafka\src\main\java\com\example\reactive_kafka\sec08" />
       <recent name="C:\Users\hp\Documents\projects\kafka1\reactive-kafka\src\main\java\com\example\reactive_kafka\sec06" />
       <recent name="C:\Users\hp\Documents\projects\kafka1\reactive-kafka\src\main\java\com\example\reactive_kafka\sec04" />
       <recent name="C:\Users\hp\Documents\projects\kafka1\reactive-kafka\src\main\java\com\example\reactive_kafka\sec03" />
@@ -421,7 +139,7 @@
       <updated>1727772038269</updated>
       <workItem from="1727772039390" duration="4536000" />
       <workItem from="1727801923480" duration="3970000" />
-      <workItem from="1727836494561" duration="4374000" />
+      <workItem from="1727836494561" duration="7044000" />
     </task>
     <servers />
   </component>
