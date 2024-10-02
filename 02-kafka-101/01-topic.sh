@@ -11,7 +11,7 @@ kafka-topics.sh --bootstrap-server localhost:9092 --topic hello-world --describe
 # delete a topic
 kafka-topics.sh --bootstrap-server localhost:9092 --topic hello-world --delete
 
-# topic with partitons
+# topic with partitions
 kafka-topics.sh --bootstrap-server localhost:9092 --topic order-events --create --partitions 2
 
 # change the number of partitions of a topic
