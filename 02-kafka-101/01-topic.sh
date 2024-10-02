@@ -22,3 +22,6 @@ kafka-topics.sh --bootstrap-server localhost:9092 --topic order-events --alter -
 
 # topic with replicaiton factor
 kafka-topics.sh --bootstrap-server localhost:9092 --topic order-events --create --replication-factor 3
+
+# topic with minimum async replicas to send the acknowledgment
+kafka-topics.sh --bootstrap-server localhost:9092 --topic order-events --create --replication-factor 3 --config min.insync.replicas=2
