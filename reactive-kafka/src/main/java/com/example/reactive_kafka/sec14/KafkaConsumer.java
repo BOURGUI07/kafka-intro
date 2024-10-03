@@ -6,7 +6,7 @@ import org.apache.kafka.common.serialization.IntegerDeserializer;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import reactor.kafka.receiver.KafkaReceiver;
 import reactor.kafka.receiver.ReceiverOptions;
-import org.springframework.kafka.support.serializer.ErrorHandlingDeserializer;
+//import org.springframework.kafka.support.serializer.ErrorHandlingDeserializer;
 
 import java.util.List;
 import java.util.Map;
@@ -25,7 +25,7 @@ public class KafkaConsumer {
         );
 
         var options = ReceiverOptions.<String,Integer>create(consumerConfig)
-                .withKeyDeserializer(errorHandlingDeserializer())
+         //       .withKeyDeserializer(errorHandlingDeserializer())
                 .subscription(List.of("order-events")); //topic names
 
         KafkaReceiver.create(options)
@@ -35,16 +35,16 @@ public class KafkaConsumer {
                 .subscribe();
     }
 
-    private static ErrorHandlingDeserializer<Integer> errorHandlingDeserializer(){
-        var deserializer = new ErrorHandlingDeserializer<>(new IntegerDeserializer());
-        deserializer.setFailedDeserializationFunction(
-                info -> {
-                    log.error("failed record: {}", new String(info.getData()));
-                    return -10_000;
-                }
-        );
-        return deserializer;
-    }
+   // private static ErrorHandlingDeserializer<Integer> errorHandlingDeserializer(){
+   //     var deserializer = new ErrorHandlingDeserializer<>(new IntegerDeserializer());
+   //     deserializer.setFailedDeserializationFunction(
+  //              info -> {
+    //                log.error("failed record: {}", new String(info.getData()));
+    //                return -10_000;
+     //           }
+   ////     );
+  //      return deserializer;
+ //   }
 
 
 }
