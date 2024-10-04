@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b7eb9b7-53f6-406d-8eaa-1ba8c30d5e70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/02-kafka-101/07-transaction.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec15/TransferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec15/TransferEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec15/TransferEventConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec15/TransferEventProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/product-service/src/main/java/com/example/product_service/config/KafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/product-service/src/main/java/com/example/product_service/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/product-service/src/main/java/com/example/product_service/dto/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/product-service/src/main/java/com/example/product_service/dto/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/product-service/src/main/java/com/example/product_service/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/product-service/src/main/java/com/example/product_service/event/ProductViewEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/product-service/src/main/java/com/example/product_service/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/product-service/src/main/java/com/example/product_service/repo/ProductRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/product-service/src/main/java/com/example/product_service/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/product-service/src/main/java/com/example/product_service/service/ProductViewEventProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/product-service/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/product-service/src/main/resources/product.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/product-service/src/test/java/com/example/product_service/ProductServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec16/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactive-kafka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec14/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/reactive-kafka/src/main/java/com/example/reactive_kafka/sec14/KafkaConsumer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +56,12 @@
     "Application.KafkaProducer.executor": "Run",
     "Application.Lec01KafkaConsumer.executor": "Run",
     "Application.Lec02KafkaConsumer.executor": "Run",
+    "JUnit.ProductServiceTest.test1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/hp/Documents/projects/kafka1/reactive-kafka/src/main/java/com/example/reactive_kafka/sec14",
+    "last_opened_file_path": "C:/Users/hp/Documents/projects/kafka1/assignment/product-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,6 +69,11 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,7 +90,7 @@
       <recent name="com.example.reactive_kafka.sec05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KafkaProducer">
+  <component name="RunManager" selected="JUnit.ProductServiceTest.test1">
     <configuration name="KafkaProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.reactive_kafka.sec02.KafkaProducer" />
       <module name="reactive-kafka" />
@@ -110,6 +130,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductServiceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.product_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.product_service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.product_service.ProductServiceTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.product_service.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReactiveKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="reactive-kafka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.reactive_kafka.ReactiveKafkaApplication" />
@@ -119,6 +162,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductServiceTest.test1" />
         <item itemvalue="Application.KafkaProducer" />
         <item itemvalue="Application.Lec02KafkaConsumer" />
         <item itemvalue="Application.Lec01KafkaConsumer" />
@@ -145,7 +189,8 @@
       <workItem from="1727801923480" duration="3970000" />
       <workItem from="1727836494561" duration="13552000" />
       <workItem from="1727885762959" duration="7765000" />
-      <workItem from="1727932261493" duration="9698000" />
+      <workItem from="1727932261493" duration="10305000" />
+      <workItem from="1728009908545" duration="12874000" />
     </task>
     <servers />
   </component>
