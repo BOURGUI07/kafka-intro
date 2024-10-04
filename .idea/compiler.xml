@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="reactive-kafka" />
+        <module name="analytics-service" />
         <module name="product-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="analytics-service" options="-parameters" />
       <module name="product-service" options="-parameters" />
       <module name="reactive-kafka" options="-parameters" />
     </option>
